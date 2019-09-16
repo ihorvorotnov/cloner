@@ -15,9 +15,10 @@ use League\Flysystem\Filesystem;
 use League\Flysystem\Vfs\VfsAdapter as Adapter;
 use League\Flysystem\MountManager;
 use Mockery as m;
+use PHPUnit\Framework\TestCase;
 use VirtualFileSystem\FileSystem as Vfs;
 
-class FunctionalTest extends PHPUnit_Framework_TestCase {
+class FunctionalTest extends TestCase {
 
 	private $article;
 
